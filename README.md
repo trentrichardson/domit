@@ -83,13 +83,13 @@ Return the selection class.
 Serialize the collection's form fields into an object.  Checkboxes, select[multiple], and any inputs with duplicate names will return an array of values.
 Returns an object where keys are the field's name.
 
-#### .on = function(type, fn)
+#### .on(type, fn)
 Attach an event to the node collection.
 `type` - String - name of the event to attach.
 `fn` - Function - the event handler function.
 Return the selection class.
 
-#### .off = function(type, fn)
+#### .off(type, fn)
 Remove an event from the node collection.
 `type` - String - name of the event to attach.
 `fn` - Function - the event handler function.
