@@ -10,13 +10,9 @@ Or with a script tag or requirejs.
 
 ---
 ## About
-- Author: [Trent Richardson][author]
-- Github: [Repo][github]
-- Licensed under the [MIT][mitlicense]
-
-[author]: (http://trentrichardson.com)
-[github]: (https://github.com/trentrichardson/domit)
-[mitlicense]: LICENSE
+- Author: [Trent Richardson](http://trentrichardson.com)
+- Github: [Repo](https://github.com/trentrichardson/domit)
+- Licensed under the [MIT](LICENSE)
 
 ---
 ## Methods
