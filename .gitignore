@@ -1,0 +1,22 @@
+# Always-ignore extensions
+#######################
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+# OS/Editor
+###################
+.DS_Store
+Thumbs.db
+
+# Node files
+#################
+npm-debug.log
+node_modules
+.idea
+*.iml
+.DS_Store
+Thumbs.db

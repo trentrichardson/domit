@@ -1,0 +1,29 @@
+{
+  "name": "domit",
+  "description": "A small wrapper for dom traversing and manipulation",
+  "version": "0.0.1",
+  "keywords": [
+  	"DOM"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trentrichardson/domit.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/trentrichardson/domit/master/LICENSE"
+    }
+  ],
+  "scripts": {
+  	"start": "gulp",
+    "test": "gulp test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-jasmine-phantom": "^1.1.1",
+    "gulp-jshint": "^1.9.0",
+    "phantomjs": "^1.9.13"
+  }
+}
