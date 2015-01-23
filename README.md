@@ -27,8 +27,13 @@ Return native event object.
 A way to use css selectors to select a list of elements.  This will return a subclass with chainable methods.  
 - `selector` - String, NodeList, Node - css selector, a node list, or a single element.
 - `scope` - Node - Dom element to search from. Defaults to document.
-
 Return a subclass with the following methods and properties.
+
+#### .length
+Integer representing the number of nodes in the selection class
+
+#### .nodes
+Array of nodes in the selection class.  Note: this is not a NodeList, but a normal Array.
 
 #### .find(selector)
 Searches the collection with the given selector, returning a new selection subclass.
@@ -101,3 +106,8 @@ Trigger an event to the node collection.
 - `isCustom` - Boolean - whether this is a custom event or native.
 Return the selection class.
 
+---
+## Properties
+
+### fx
+A boolean indicating whether to actually do animations in .animate(), or to simply change the properties.  Can be useful when testing.
