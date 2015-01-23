@@ -12,7 +12,14 @@
 	"eqnull": true,
 	"node": true,
 	"browser": true,
+	"jquery": true,
 	"predef": [
-		"define"
+		"domit",
+		"define",
+		"expect",
+		"describe",
+		"it",
+		"beforeEach",
+		"afterEach"
 	]
 }

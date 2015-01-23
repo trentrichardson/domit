@@ -1,7 +1,7 @@
 {
   "name": "domit",
   "description": "A small wrapper for dom traversing and manipulation",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": [
   	"DOM"
   ],
